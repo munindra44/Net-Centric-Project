@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/WebApplication1">
+  <!-- Specify a JDBC datasource -->
+  <Resource auth="Container" 
+  driverClassName="com.mysql.cj.jdbc.Driver" 
+  maxActive="10" 
+  maxIdle="4" 
+  name="jdbc/ncp" 
+  password="qwerty" 
+  url="jdbc:mysql://localhost:3306/ncp" 
+  username="root"/>
+  
+</Context>
